@@ -16,3 +16,11 @@ stop() -Stop the timer
 reset() -Reset the timer to zero
 
 getValue() - returns a decimal, gets the current timer value in seconds with milliseconds expressed after the decimal point
+
+
+##Example
+`
+//count down to zero from 10 seconds
+var timer = new Timer(counter);
+timer.start(10, true);
+`
