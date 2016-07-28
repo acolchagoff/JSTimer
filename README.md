@@ -20,7 +20,11 @@ getValue() - returns a decimal, gets the current timer value in seconds with mil
 
 ##Example
 ```
+<span id="counter"></span>
+<script type="text/javascript">
 //count down to zero from 10 seconds
+var counter = document.getElementById('counter');
 var timer = new Timer(counter);
 timer.start(10, true);
+</script>
 ```
