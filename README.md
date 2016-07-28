@@ -19,8 +19,8 @@ getValue() - returns a decimal, gets the current timer value in seconds with mil
 
 
 ##Example
-`
+```
 //count down to zero from 10 seconds
 var timer = new Timer(counter);
 timer.start(10, true);
-`
+```
