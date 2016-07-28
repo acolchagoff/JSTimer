@@ -5,8 +5,11 @@ public Methods:
 
 
 start(seconds, countdown) -Star the timer
+
 -seconds (optional, integer, number of seconds to start timer at
+
 -countdown (optional, boolean, whether to count up or down to zero)
+
 
 stop() -Stop the timer
 
